@@ -1,0 +1,3 @@
+[submodule "flaskr/submodules/RRT"]
+	path = flaskr/submodules/RRT
+	url = https://github.com/OfekPeres/RRT.git
