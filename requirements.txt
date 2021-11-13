@@ -1,2 +1,7 @@
-./submodules/KDTree4RRT
-.
+numpy
+Flask
+flask-cors
+Shapely
+typing
+matplotlib
+gunicorn
