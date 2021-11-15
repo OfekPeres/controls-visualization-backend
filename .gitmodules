@@ -4,3 +4,8 @@
 	branch = main
 	ignore = dirty
 
+[submodule "flaskr/submodules/controls_algorithms"]
+	path = flaskr/submodules/controls_algorithms
+	url = https://github.com/OfekPeres/controls-algorithms.git
+	branch = main
+	ignore = dirty
