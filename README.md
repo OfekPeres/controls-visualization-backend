@@ -26,3 +26,9 @@ To start up the dev server locally (with live reload), run:
 ```
 FLASK_APP=flaskr FLASK_ENV=development flask run
 ```
+
+# Useful Commands
+If you need to update a git submodule, run:
+```
+git submodule update --recursive --init --remote --merge
+```
