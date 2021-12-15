@@ -1,9 +1,3 @@
-[submodule "flaskr/submodules/RRT"]
-	path = flaskr/submodules/RRT
-	url = https://github.com/OfekPeres/RRT.git
-	branch = main
-	ignore = dirty
-
 [submodule "flaskr/submodules/controls_algorithms"]
 	path = flaskr/submodules/controls_algorithms
 	url = https://github.com/OfekPeres/controls-algorithms.git
@@ -12,3 +6,5 @@
 [submodule "flaskr/submodules/MappingAlgorithms"]
 	path = flaskr/submodules/MappingAlgorithms
 	url = https://github.com/OfekPeres/MappingAlgorithms.git
+	branch = main
+	ignore = dirty
