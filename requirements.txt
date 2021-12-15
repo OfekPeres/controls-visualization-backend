@@ -5,3 +5,4 @@ Shapely
 typing
 matplotlib
 gunicorn
+typing-extensions

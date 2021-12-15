@@ -2,7 +2,7 @@ from flask import jsonify, request, make_response
 from flaskr import app
 import json
 import numpy as np
-from .submodules.RRT.src.RRT import RRT
+from .submodules.MappingAlgorithms.src.continuous.RRT import RRT
 
 class NumpyEncoder(json.JSONEncoder):
     """ Special json encoder for numpy types """
@@ -28,6 +28,7 @@ def get_rrt():
         payload['d_max'] = 28
         payload['width'] = 400
         payload['height'] = 400
+        
         rrt = RRT(payload)
         
         response = make_response(json.dumps(rrt.GetRRTPayload(), cls=NumpyEncoder))

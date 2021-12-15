@@ -7,8 +7,9 @@ CORS(app)
 # Import all of the python files we want from our directory name
 # These files can in turn import app from the __init__.py file
 # and therefore add routes and methods as we want
-# from flaskr import rrt
-from flaskr import views, random, echo, rrt, controls
+from flaskr import views, random, echo, controls, rrt
+
+# from flaskr import views, random, echo,  controls
 
 if  __name__ == "__main__":
     app.run(debug=True)

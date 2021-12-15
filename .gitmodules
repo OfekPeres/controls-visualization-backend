@@ -9,3 +9,6 @@
 	url = https://github.com/OfekPeres/controls-algorithms.git
 	branch = main
 	ignore = dirty
+[submodule "flaskr/submodules/MappingAlgorithms"]
+	path = flaskr/submodules/MappingAlgorithms
+	url = https://github.com/OfekPeres/MappingAlgorithms.git
